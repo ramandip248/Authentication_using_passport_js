@@ -5,7 +5,7 @@ const db = require('./config/mongoose');
 
 // express server set up
 const app = express();
-
+app.use(express.urlencoded());
 // static file set up
 app.use(express.static('./assests'));
 
