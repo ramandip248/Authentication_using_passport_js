@@ -13,7 +13,7 @@ const app = express();
 
 app.listen(port,function(err){
     if(err){
-        console.log(`error in server connection, ${err}`)
+        console.log(`err in connection, ${err}`)
     }
     console.log(`server is running on port ${port}`)
 })
